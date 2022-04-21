@@ -5,4 +5,4 @@ Uses pygame for GUI rendering.
 I even implemented my own GUI elements like buttons!
 
 # How to use:
-  $python3 main.py
+  $python3 Main.py
