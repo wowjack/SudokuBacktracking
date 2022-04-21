@@ -3,7 +3,7 @@ from pygame import *
 init()
 
 def displayText(text, surface, size, position, color):
-    Font = font.Font('/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', size)
+    Font = font.Font('./font.ttf', size)
     write = Font.render(text, True, color)
     rect = write.get_rect()
     rect.center = position
